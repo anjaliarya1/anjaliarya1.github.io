@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Trip Schedule</title>
+<link rel="stylesheet" href="style.css" type="text/css">
+<style>
+table{font-size:18px; width:90%; text-align:center;}
+table,td,th{border:1px solid #fffae6; border-collapse:collapse;}
+th{background-color:#fffae6; color:#800000; border:1px solid #800000;}
+td{color:#fffae6;}
+td.filled{color:#ff4d4d;}
+td.wl{color:#e6e600;}
+td.active{color:lightgreen;}
+span.detail,a{color:#fffae6;}
+h1,span{margin-left:15px;}
+</style>
+</head>
+<body>
+
+<header>
+<img src="triportalBanner.png" alt="Logo" width=99.9% height=95>
+</header>
+
+<hr>
+<nav>
+<div class="navbar">
+<a class="navlink" href="index.html">Home Page</a>
+<a class="navlink" href="aboutUs.html">About Us</a>
+<a class="navlink" href="tripSchedule.html">Trip Schedule</a>
+<a class="navlink" href="itineraries.html">Itineraries</a>
+<a class="navlink" href="triportalBlog.html" target="_blank">Blog</a>
+<a class="navlink" href="contactUs.html">Contact Us</a>
+<a class="navbook" href="book.html" target="_blank">Book a Trip</a>
+</div>
+</nav>
+<hr>
+
+<main>
+<div class="mainbg">
+<h1>Trip Schedule</h1>
+<center>
+<table cellpadding="5">
+<tr>
+<th>Trip Code</th>
+<th>Dates</th>
+<th>Location</th>
+<th>Total Strength</th>
+<th>Status</th>
+</tr>
+
+<tr>
+<td>SVDE20</td>
+<td><del>15<sup>th</sup> Nov 2020 - 25<sup>th</sup> Nov 2020</del> <ins>1<sup>st</sup> Dec 2020 - 10<sup>th</sup> Dec 2020</ins></td>
+<td>Spiti Valley</td>
+<td>10</td>
+<td class="wl">Waiting List</td>
+</tr>
+
+<tr>
+<td>KADE20</td>
+<td>1<sup>st</sup> Dec 2020 - 15<sup>th</sup> Dec 2020</td>
+<td>Karnataka</td>
+<td>20</td>
+<td class="wl">Waiting List</td>
+</tr>
+
+<tr>
+<td>MEDE20</td>
+<td rowspan="2">20<sup>th</sup> Dec 2020 - 27<sup>th</sup> Dec 2020</td>
+<td>Meghalaya</td>
+<td>10</td>
+<td class="filled">Filled</td>
+</tr>
+
+<tr>
+<td>SIDE20</td>
+<td>Sikkim</td>
+<td>10</td>
+<td class="active">Active</td>
+</tr>
+
+<tr>
+<td>VFJA21</td>
+<td>3<sup>rd</sup> Jan 2021 - 10<sup>th</sup> Jan 2021</td>
+<td>Valley Of Flowers</td>
+<td>15</td>
+<td class="filled">Filled</td>
+</tr>
+
+<tr>
+<td>KEJA21</td>
+<td>10<sup>th</sup> Jan 2021 - 22<sup>nd</sup> Jan 2021</td>
+<td>Kerala</td>
+<td>10</td>
+<td class="active">Active</td>
+</tr>
+
+</table>
+</center>
+<br>
+<span class="detail">For details about each trip, refer to <a href="Itineraries.html">Itineraries</a></span>
+<br><br>
+</div>
+</main>
+<hr>
+
+<footer>
+<a class="footerlink" href="mailto:reachus@triportal.com" title="Write To Us">Write To Us</a>&nbsp &nbsp
+<a class="footerlink" href="feedback.html" title="Feedback">Feedback</a><br><br>
+<span class="copy">Copyright &copy; 2020 Triportal.com</span>
+</footer>
+<hr>
+
+</body>
+</html>

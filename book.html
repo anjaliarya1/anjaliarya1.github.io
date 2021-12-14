@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Booking Form</title>
+<link rel="stylesheet" href="style.css" type="text/css">
+<style>
+body{color:#fffae6;}
+h1,ul,form{margin-left:15px;}
+li{margin-top:10px;}
+marquee{background-color:black; color:gold; padding:10px;}
+.button{margin-left:155px;}
+</style>
+</head>
+<body>
+
+<header>
+<img src="triportalBanner.png" alt="Logo" width=99.9% height=95>
+</header>
+
+<hr>
+<nav>
+<div class="navbar">
+<a class="navlink" href="index.html">Home Page</a>
+<a class="navlink" href="aboutUs.html">About Us</a>
+<a class="navlink" href="tripSchedule.html">Trip Schedule</a>
+<a class="navlink" href="itineraries.html">Itineraries</a>
+<a class="navlink" href="triportalBlog.html" target="_blank">Blog</a>
+<a class="navlink" href="contactUs.html">Contact Us</a>
+<a class="navbook" href="book.html">Book a Trip</a>
+</div>
+</nav>
+<hr>
+
+<marquee scrollamount="10">In case of cancellation of a trip, registered individuals will be informed a week prior and refund will be initiated soon.</marquee>
+<hr>
+
+<main>
+<div class="mainbg">
+<h1>Kindly Read The Instructions Below Before Filling The Form:</h1>
+<ul>
+<li>The following form is for an individual only, more than one person cannot register with the same e-mail ID or contact number.</li>
+<li>Filling the form does not confirm your booking, it is subject to verification of document(s) and availability of vacancy.</li>
+<li>Individuals below the age of 18 years as on date of filling the form are not allowed to book a trip.</li>
+<li>We will contact you via contact info provided by you, after which you can make the payment.</li>
+</ul>
+
+<h1>Booking Form</h1>
+<form>
+<label for="name">Full Name:</label>
+<input type="text" id="name" name="name" placeholder="e.g.: Anjali Arya" required autofocus style="margin-left:19px;"><br><br>
+
+<label for="email">E-mail ID:</label>
+<input type="email" id="email" name="email" placeholder="e.g.: abc@xyz.com" required style="margin-left:23px;"><br><br>
+
+<label for="tel">Contact No.:</label>
+<input type="tel" id="tel" name="tel" placeholder="e.g.: +919876543210" required style="margin-left:10px;"><br><br>
+
+<label for="dob">Date of Birth:</label>
+<input type="date" id="dob" name="dob" max="2002-11-02" required style="margin-left:37px;"><br><br>
+
+<label for="gender">Gender:</label>
+<input type="radio" id="female" name="gender" style="margin-left:75px;">
+<label for="female">Female</label><br>
+
+<input type="radio" id="male" name="gender" style="margin-left:136px;">
+<label for="male">Male</label><br>
+
+<input type="radio" id="other" name="gender" style="margin-left:136px;">
+<label for="other">Other</label><br><br>
+
+<label for="tcode">Select Trip Code:</label>
+<select id="tcode" name="tcode" required style="margin-left:15px; width:127px; height:23px">
+<option value="select" selected disabled>Select</option>
+<option value="svde20">SVDE20</option>
+<option value="kade20">KADE20</option>
+<option value="mede20">MEDE20</option>
+<option value="side20">SIDE20</option>
+<option value="vfja21">VFJA21</option>
+<option value="keja21">KEJA21</option>
+</select><br><br>
+
+<label for="idproof">Identity Proof:</label>
+<input type="file" id="idproof" name="idproof" required style="margin-left:32px;"><br>
+(Aadhar Card/Passport/PAN Card/Driving License/Voter ID)<br><br>
+
+<input type="checkbox" id="Indian" name="Indian">
+<label for="Indian">Check this box if you are an Indian citizen</label><br><br>
+
+<input class="button" type="submit" value="Book Trip" onclick="alert('Hey there! Your form has been submitted.')" style="padding:6px; font-size:16px;">
+<input class="button" type="reset" value="Reset" style="padding:6px; font-size:16px; margin-left:20px;">
+</form>
+<br>
+<small>*Terms & Conditions Apply</small>
+<br><br>
+</div>
+</main>
+<hr>
+
+<footer>
+<a class="footerlink" href="mailto:reachus@triportal.com" title="Write To Us">Write To Us</a>&nbsp &nbsp
+<a class="footerlink" href="feedback.html" title="Feedback">Feedback</a><br><br>
+<span class="copy">Copyright &copy; 2020 Triportal.com</span>
+</footer>
+<hr>
+
+</body>
+</html>
